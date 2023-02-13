@@ -37,6 +37,8 @@ nav,section{
     display: inline-block;
 }
 article{
-   padding-left: 15vw;
+   padding-left: 50px;
+   padding-bottom: 15px;
    font-size: 14px;
+   width: 40vw;
 }
