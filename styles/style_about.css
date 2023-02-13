@@ -30,8 +30,11 @@ h2{
 }
 a{
     display: block;
-    padding: 15px;
+    padding: 70px;
     font-size: 20px;
+    padding-bottom: 20px;
+    
+    
 }
 nav,section{
     display: inline-block;
@@ -41,4 +44,7 @@ article{
    padding-bottom: 15px;
    font-size: 14px;
    width: 40vw;
+}
+h3{
+    padding: 10px;
 }
