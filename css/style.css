@@ -49,17 +49,15 @@ nav>a {
     position: absolute;
     margin-top: 28vh;
     margin-left: 80%;
-    width: 150px;
+    width: 180px;
 }
 .logo-contact{
     position: absolute;
     margin-top: 28vh;
     margin-left: 80%;
-    width: 150px;
+    width: 180px;
 }
     
-
-
 nav,
 section {
     display: inline-block;
