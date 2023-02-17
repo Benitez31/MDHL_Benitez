@@ -3,18 +3,40 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    min-height: 65vh;
+    display: flex;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: wheat;
+    justify-content: space-between;
 }
 
 h1 {
     font-size: 60px;
+    text-shadow: 2px 2px 2px rgb(217, 235, 63);
 }
-
 
 .titulo_pestaña {
     text-align: center;
     border-style: solid;
     border-color: black;
-    background-color: aqua;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 header {
@@ -25,17 +47,24 @@ header {
     width: 100%;
 }
 
-.title {
-    text-align: center;
-    border-style: solid black;
-    background-color: aqua;
-}
 
 nav>a {
     display: block;
     padding: 15px;
     font-size: 20px;
+    text-decoration: none;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+    color: wheat;
+    margin-top: 10px;
+}
 
+nav>a:hover {
+    color: rgb(247, 0, 255);
+}
+
+nav>a:active {
+    background-color: aqua;
 }
 
 .logo {
@@ -44,23 +73,6 @@ nav>a {
     margin-left: 80%;
     width: 150px;
 
-}
-.logo-about{
-    position: absolute;
-    margin-top: 28vh;
-    margin-left: 80%;
-    width: 180px;
-}
-.logo-contact{
-    position: absolute;
-    margin-top: 28vh;
-    margin-left: 80%;
-    width: 180px;
-}
-    
-nav,
-section {
-    display: inline-block;
 }
 
 article {
@@ -85,19 +97,70 @@ ol {
 }
 
 nav {
-    width: 20%;
+    min-width: 20%;
+    height: 100%;
+    text-align: center;
+
 }
 
-.flex-container {
+table {
+    padding: 1rem;
+    font-size: large;
+    width: 50%;
+    padding-left: 200px;
+}
+
+form {
+    padding: 20px;
+}
+
+fieldset {
+    padding: 2rem;
+}
+
+label {
+    padding: 0.5rem
+}
+
+td {
+    padding: 2rem;
+}
+
+.mapa {
+    height: 200px;
+    width: 200px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+figure>img {
+    height: 300px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+a {
+    color: yellow;
+}
+figure{
+    width: 30%;
+}
+div{
+    width: 50%;
+}
+div>p{
+    text-align: center;
+    padding-top: 30px;
+}
+.objetiv{
     width: 80%;
 }
-
-nav,
-.flex-container {
-    display: inline-block;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
+.game-inf{
+    text-align: center;
+    margin-top: 10px;
+    font-size: larger;
 }
